@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@import "./font";
+@import "../components/Header/header";
+
+* { 
+  box-sizing: border-box;
+	margin: 0;
+	color: #fff;
+	// outline: 1px solid red;
+}
+
+body {
+	background-color: #181b1f;
+    font-family: 'Poppins';
+}
+
+.App {
+	width: 100%;
+  margin: 0 auto;
+	max-width: 1200px;
+}

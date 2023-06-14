@@ -1,0 +1,57 @@
+header {
+	padding-top: 37px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	h1 {
+		font-family: "Gilroy";
+		span {
+			font-weight: 150;
+		}
+	}
+	ul {
+		padding: 0;
+		display: flex;
+
+		li {
+			font-weight: 400;
+			list-style: none;
+			padding: 10px 23px;
+		}
+	}
+	.menu {
+		display: flex;
+		align-items: center;
+		gap: 22px;
+		select {
+			text-align: center;
+			border: none;
+			color: #ffffff;
+			opacity: 50%;
+			background-color: transparent;
+			// appearance: none;
+			option {
+				box-sizing: content-box;
+				padding: 4px;
+				line-height: 32px;
+				text-indent: 4px;
+				background-color: #181b1f;
+				color: #ffffff;
+				opacity: 50%;
+			}
+		}
+		img {
+			width: 44px;
+		}
+
+		button {
+			font-weight: 600;
+			font-size: 16px;
+			width: 182px;
+			height: 44px;
+			color: #181b1f;
+			border-radius: 8px;
+			background: #ffffff;
+		}
+	}
+}
