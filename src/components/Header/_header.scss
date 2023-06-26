@@ -1,8 +1,12 @@
 header {
+	width: 100%;
+    margin: 0 auto;
+	max-width: 1200px;
 	padding-top: 37px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
 	h1 {
 		font-family: "Gilroy";
 		span {
@@ -17,6 +21,20 @@ header {
 			font-weight: 400;
 			list-style: none;
 			padding: 10px 23px;
+		}
+
+		li::after{
+			content: '';
+			width: 0%;
+			height: 2px;
+			background: linear-gradient(to right, #00F0FF, #3360FF);
+			display: block;
+			// margin: auto;
+			transition: 0.5s;
+		}
+
+		li:hover::after{
+			width: 100%;
 		}
 	}
 	.menu {
@@ -40,8 +58,13 @@ header {
 				opacity: 50%;
 			}
 		}
+		
 		img {
 			width: 44px;
+		}
+
+		img:hover{
+			content: url('../../assets/images/burger-white.png');
 		}
 
 		button {
@@ -52,6 +75,11 @@ header {
 			color: #181b1f;
 			border-radius: 8px;
 			background: #ffffff;
+			transition: 0.5s;
+		}
+		button:hover{
+			background: linear-gradient(to right, #00F0FF, #3360FF);
+			color: #fff;
 		}
 	}
 }

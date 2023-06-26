@@ -23,6 +23,10 @@ const Header = () => {
 				</select>
 
 				<button>Start project &rarr;</button>
+				{/* <div className="image-container">
+					<div className="img"></div>
+
+				</div> */}
 				<img src={Burger} alt="" srcset="" />
 			</div>
 		</header>
