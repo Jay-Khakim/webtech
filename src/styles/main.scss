@@ -3,6 +3,7 @@
 
 @import "./font";
 @import "../components/Header/header";
+@import "../components/Welcome/welcome";
 
 * { 
  	box-sizing: border-box;
@@ -11,12 +12,14 @@
 	// outline: 1px solid red;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: #181b1f;
     font-family: 'Poppins';
 }
-
-
 
 
 
